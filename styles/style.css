@@ -26,19 +26,16 @@ header {
   align-items: flex-start;
   justify-content: space-between;
   background-color: rgb(240, 240, 240);
+  transition: all 1s ease;
+}
+
+header.scrolled {
+  transform: scale(0.7);
 }
 
 header #alias {
   font-size: 6rem;
   font-weight: 700;
-
-  transition: all 1s ease;
-}
-
-header.scrolled #alias {
-  transition: all 1s ease;
-
-  font-size: 2rem;
 }
 
 header nav {
