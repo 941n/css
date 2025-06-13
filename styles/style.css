@@ -6,11 +6,11 @@
 }
 
 html {
-  background-color: rgb(166, 208, 222);
+  /* background-color: rgb(166, 208, 222); */
 }
 
 body {
-  background-color: rgb(102, 102, 102);
+  /* background-color: rgb(102, 102, 102); */
 
   height: 4000px;
 }
@@ -31,13 +31,13 @@ header {
 header.scrolled #alias {
   font-size: 2rem;
   font-weight: 700;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 header #alias {
   font-size: 6rem;
   font-weight: 700;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 header nav {
@@ -50,7 +50,7 @@ header nav {
 
   background-color: rgb(6, 6, 6);
   color: rgb(240, 240, 240);
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 header.scrolled nav {
@@ -63,7 +63,7 @@ header.scrolled nav {
 
   background-color: inherit;
   color: rgb(6, 6, 6);
-  transition: all 0.5s ease;
+  transition: all 0.5s ease-in-out;
 }
 
 aside {
@@ -85,13 +85,14 @@ main .article {
 
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: 2rem;
+  left: 2rem;
 
-  background-color: rgb(156, 156, 156);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 footer * {
   font-size: 0.8rem;
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
 }
