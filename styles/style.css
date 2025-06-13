@@ -31,13 +31,13 @@ header {
 header.scrolled #alias {
   font-size: 2rem;
   font-weight: 700;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 header #alias {
   font-size: 6rem;
   font-weight: 700;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 header nav {
@@ -50,7 +50,7 @@ header nav {
 
   background-color: rgb(6, 6, 6);
   color: rgb(240, 240, 240);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 header.scrolled nav {
@@ -63,7 +63,7 @@ header.scrolled nav {
 
   background-color: inherit;
   color: rgb(6, 6, 6);
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
 }
 
 aside {
