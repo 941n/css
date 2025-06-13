@@ -16,7 +16,7 @@ const alias = document.querySelector('#alias');
 observer.observe(header); */
 
 window.onscroll = () => {
-  if (window.scrollY > header.offsetHeight + 100) {
+  if (window.scrollY > header.offsetHeight - 70) {
     console.log(`Scrolled past header: ${window.scrollY}`);
     header.classList.add('scrolled');
   } else {
